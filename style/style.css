@@ -250,6 +250,11 @@ h6 {
 
 .social-link {
     margin-left: 51px;
+    transition: width 5s linear;
+}
+
+.social-link img:hover {
+    width: 50px;
 }
 
 .social-link:first-child {
